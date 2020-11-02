@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- Шапка сайта -->
     <header class="header">
       <div class="container">
               <div class="header__body">
@@ -38,20 +39,26 @@
                 </div>
             </div>
     </header>
-    <div class="title">
-      <h1 class="title__main">Model S</h1>
-      <h3 class="title__second">Добро пожаловать в будущее!</h3>
-    </div>
-    <img class="background__tesla" src="Tesla-Wordmark-Red.png">
-    <section>
-      <span>0-100 км/ч</span>
-      <span>Запас хода</span>
-      <span>Тест-драйв</span>
-      <button type="button" name="Заказать">Заказать</button>
+    <!-- Первая секция сайта -->
+    <section class="drive">
+        <div class="drive__title">
+            <img class="drive__modelsblack" src="Model S black.svg">
+            <h3 class="drive__secondtitle">Добро пожаловать в будущее!</h3>
+        </div>
+          <img class="drive__backgroundtesla" src="Tesla-Wordmark-Red.png">
+          <img class="drive__redcar" src="tesla-png-tesla-png-hd-1636.png" alt="red-car">
+          <img class=drive__speed src="2,7.png" alt="0-100 км/ч">
+          <img class="drive__cruising" src="632.png" alt="Запас хода">
+          <img class="drive__test" src="test drive 1.png" alt="Тест-драйв">
+      <button class="drive_redbutton" type="button" name="Заказать">Заказать</button>
     </section>
-    <section>
-      <p>Будущее вождения</p>
-        <p>
+    <!-- Вторая часть сайта -->
+    <section class="description">
+      <img  class="description__red" src="Model S redsmal.svg">
+      <img class="description__salon" src="2013-tesla-model-s-cockpit.png" alt="car-salon">
+      <img class="description__rectangle" src="Rectangle.png" alt="rectangle">
+      <p class="description__drive">Будущее вождения</p>
+        <p class="description__main">
           Модель S обладает лучшей в своем<br>
           классе вместимостью: в машине<br>
           поместится до пяти взрослых и двух<br>
@@ -64,6 +71,42 @@
           просторный интерьер для каждого<br>
           пассажира.
        </p>
+       <ul class="description__list">
+         <li class="list__display">17 дюймов<br>большой дисплей</li>
+         <li class="list___update">Беспроводное обновление ПО<br>Повышенная функциональность </li>
+         <li class="list__trunk">894 литра <br>Объём грузового пространства</li>
+       </ul>
+       <a class="description__link" href="#">Узнать больше</a>
+       <button class="description_redbutton" type="button" name="button">Заказать</button>
+    </section>
+    <!-- Третья часть сайта -->
+    <section class="frame">
+      <p class="frame__main">Самый безопасный автомобиль в мире</p>
+      <p class="frame__main">
+        Модель S достигла наивысшей оценки <br>
+        безопасности любого автомобиля, <br>
+        когда-либо испытанного, и установила <br>
+        рекорд по наименьшей вероятности <br>
+        травмы пассажиров - от несчастных <br>
+        случаев на переднем, боковом, заднем <br>
+        сидении и в ДТП с переворотом авто.
+         </p>
+         <ul class="frame__list">
+           Оценка защиты:
+           <li class="frame__list">Спереди</li>
+           <li class="frame__list">Сбоку</li>
+           <li class="frame__list">Сбоку(стойка)</li>
+           <li class="frame__list">Водитель</li>
+           <li class="frame__list">Пассажир</li>
+         </ul>
+         <p class="frame__rating">5 звезд <br>безопасности</p>
+         <a class="frame__info" href="#">Узнать больше</a>
+         <button class="frame__redbutton" type="button" name="button">Заказать</button>
+         <img class="frame__text" src="Model S.svg">
+         <img class="frame__car" src="Car frame.svg">
+         <img class="frame__overturning" src="overturning.svg">
+         <img class="frame__front" src="front protection.svg">
+         <img class="frame__side" src="side protection.svg">
     </section>
   </body>
 </html>

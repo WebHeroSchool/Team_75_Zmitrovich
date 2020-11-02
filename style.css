@@ -47,12 +47,12 @@ html, body {
   text-decoration: none;
   line-height: 18px;
   }
-  .title {
+  .drive__title {
     display: block;
     text-align: center;
     align-items: center;
   }
-.background__tesla {
+.drive__backgroundtesla {
   position: absolute;
   width: 1514px;
   height: 467px;
