@@ -16,7 +16,6 @@ html, body {
 }
 /* Шапка сайта */
 .header__logo {
-  background: url('Tesla-Wordmark-Red.png');
   position: absolute;
   width: 166px;
   height: 51px;
@@ -30,16 +29,7 @@ html, body {
   left: 42.72px;
   top: 24px;
 }
-.header__list {
-  display: flex;
-  position: relative;
-  z-index: 2;
-  margin: 40px 0px 0px 0px;
-  }
-.header__list li {
-  list-style: none;
-  margin: 0px 0px 0px 40px;
-  }
+
 .header__link {
   color: black;
   text-transform: uppercase;
