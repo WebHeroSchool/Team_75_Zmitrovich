@@ -1,16 +1,22 @@
-.header__logo {
-  position: absolute;
-  width: 166px;
-  height: 51px;
-  left: 42.72px;
-  top: 24px;
+*,*: before, *: after{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.header__body {
+  display: flex;
+  flex-direction: row;
+  margin-left: 42.72px;
+  margin-top: 24px;
+}
+.header__menu {
+  margin-top: 16px;
+  margin-left: 258.14px;
 }
 .menu__link_models {
-  position: absolute;
   width: 62px;
   height: 19px;
-  left: 466.86px;
-  top: 40px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -18,7 +24,6 @@
   line-height: 18px;
 }
 .menu__link_modelX {
-  position: absolute;
   width: 63px;
   height: 19px;
   left: 592px;
@@ -28,9 +33,9 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
+  padding-left: 63.14px;
 }
 .menu__link_model3 {
-  position: absolute;
   width: 61px;
   height: 19px;
   left: 679.86px;
@@ -40,9 +45,9 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
+  padding-left: 24.86px;
 }
 .menu__link_roadster {
-  position: absolute;
   width: 70px;
   height: 19px;
   left: 784.86px;
@@ -52,9 +57,9 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
+  padding-left: 44px;
 }
 .menu__link_energy {
-  position: absolute;
   width: 55px;
   height: 19px;
   left: 900.86px;
@@ -64,9 +69,9 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
+  padding-left: 46px;
 }
 .menu__link_shop {
-  position: absolute;
   width: 69px;
   height: 19px;
   left: 1177px;
@@ -76,9 +81,9 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
+  padding-left: 221.14px;
 }
 .menu__link_enter {
-  position: absolute;
   width: 50px;
   height: 19px;
   left: 1276px;
@@ -88,78 +93,63 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
+  padding-left: 30px;
 }
 /*Первая секция сайта */
 .title__models-black {
-  position: absolute;
   width: 370px;
   height: 110px;
-  left: 535px;
-  top: 133px;
+  margin-left: 535px;
+  margin-top: 133px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 90px;
   line-height: 110px;
+
 }
 .title__second-title {
-  position: absolute;
   width: 241px;
   height: 19px;
-  left: 600px;
-  top: 233px;
-  font-family: Montserrat;
-  font-style: normal;
+  margin-left: 600px;
+  font-family: Montserrat-Light;
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
 }
 .drive__red_car {
-  position: absolute;
   width: 968px;
   height: 450px;
-  left: 199px;
-  top: 278px;
+  margin-left: 273px;
+  margin-top: -320px;
 }
 .drive__speed {
-  position: absolute;
   width: 150px;
   height: 58px;
-  left: 381px;
-  top: 754px;
+  margin-left: 321px;
+  margin-top: 26px;
 }
 .drive__cruising {
-  position: absolute;
   width: 150px;
   height: 58px;
-  left: 597.5px;
-  top: 754px;
+  margin-left: 82.3px;
+  margin-top: 26px;
 }
 .drive__test {
-  position: absolute;
-  width: 89px;
-  height: 18px;
-  left: 830px;
-  top: 777px;
-
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 16px;
-  text-align: center;
-  text-transform: uppercase;
+  width: 118px;
+  height: 28px;
+  margin-left: 135px;
+  margin-top: -50px;
 }
 .drive__background_tesla {
-  position: absolute;
   width: 1514px;
   height: 467px;
-  left: -74px;
-  top: 134px;
+  margin-left: -74px;
+  margin-top: -133px;
   opacity: 0.1;
+  background-position: center;
 }
 .drive__button_color_red {
-  position: absolute;
   width: 147px;
   height: 24px;
   left: 966px;
@@ -174,16 +164,15 @@
   color: #E51937;
   width: 160px;
   height: 40px;
-  left: 959px;
+  margin-left: 40px;
   top: 765px;
   border: 2px solid #E51937;
   box-sizing: border-box;
   background: white;
 }
 .drive__vector {
-  position: absolute;
   width: 28px;
   height: 14px;
-  left: 706px;
-  top: 849px;
+  margin-left: 706px;
+  margin-top: 39px;
 }
