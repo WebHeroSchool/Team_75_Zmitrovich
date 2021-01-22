@@ -10,8 +10,16 @@
   margin-left: 42.72px;
   margin-top: 24px;
 }
+.header__logo {
+  margin-top: 0px;
+  margin-left: 32px;
+  width: 166px;
+  height: 51px;
+}
 .header__menu {
   font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
   margin-top: 16px;
   margin-left: 258.14px;
 }
@@ -21,135 +29,123 @@
 
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
   line-height: 18px;
 }
 .menu__link_modelX {
   width: 63px;
   height: 19px;
-  left: 592px;
   top: 40px;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-  padding-left: 63.14px;
+  margin-left: 58px;
 }
 .menu__link_model3 {
   width: 61px;
   height: 19px;
-  left: 679.86px;
   top: 40px;
+  margin-left: 20px;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-  padding-left: 24.86px;
 }
 .menu__link_roadster {
   width: 70px;
   height: 19px;
-  left: 784.86px;
   top: 40px;
+  margin-left: 37px;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-  padding-left: 44px;
 }
 .menu__link_energy {
   width: 55px;
   height: 19px;
-  left: 900.86px;
   top: 40px;
+  margin-left: 40px;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-  padding-left: 46px;
 }
 .menu__link_shop {
   width: 69px;
   height: 19px;
-  left: 1177px;
   top: 40px;
+  margin-left: 217px;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-  padding-left: 221.14px;
 }
 .menu__link_enter {
   width: 50px;
   height: 19px;
-  left: 1276px;
   top: 40px;
+  margin-left: 25px;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-  padding-left: 30px;
 }
 /*Первая секция сайта */
 .title__models-black {
-  width: 370px;
-  height: 110px;
-  margin-left: 535px;
-  margin-top: 133px;
-  font-family: Montserrat;
+  text-align: center;
+  margin-top: 58px;
+  font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 600;
-  font-size: 90px;
+  font-weight: 500;
+  font-size: 88.5px;
   line-height: 110px;
-
+  margin-bottom: 0px;
+  height: 100px;
 }
 .title__second-title {
-  width: 241px;
-  height: 19px;
-  margin-left: 600px;
-  font-family: 'Montserrat-Light';
-  font-weight: 600;
-  font-size: 15px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 14.5px;
   line-height: 18px;
-}
-.drive__red_car {
-  width: 968px;
-  height: 450px;
-  margin-left: 273px;
-  margin-top: -320px;
-}
-.drive__speed {
-  width: 150px;
-  height: 58px;
-  margin-left: 321px;
-  margin-top: 26px;
-}
-.drive__cruising {
-  width: 150px;
-  height: 58px;
-  margin-left: 82.3px;
-  margin-top: 26px;
-}
-.drive__test {
-  width: 118px;
-  height: 28px;
-  margin-left: 135px;
-  margin-top: -50px;
+  margin-top: 1px;
 }
 .drive__background_tesla {
   width: 1514px;
   height: 467px;
-  margin-left: -74px;
-  margin-top: -133px;
+  margin-left: -48px;
+  margin-top: -120px;
   opacity: 0.1;
   background-position: center;
+}
+.drive__red_car {
+  width: 968px;
+  height: 450px;
+  margin-left: 230px;
+  margin-top: -340px;;
+}
+.drive__speed {
+  width: 3.45%;
+  margin-left: 347px;
+}
+.drive__cruising {
+  display: inline;
+  width: 2.9%;
+  margin-left: 172px;
+  margin-top: 20px;
+}
+.drive__test {
+  width: 1.5%;
+  margin-left: 205px;
 }
 .drive__button_color_red {
   width: 147px;
