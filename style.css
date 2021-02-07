@@ -120,13 +120,10 @@ line-height: 18px;
   margin-top: 0px;
 }
 .drive__background_tesla {
-width: 93%;
-line-height: 93%;
-display: flex;
-align-items: flex-start;
+  background: url('Tesla-Wordmark-Red.svg');
 }
 .drive__red_car {
-
+  
 }
 .drive__discription {
 
