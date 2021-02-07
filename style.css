@@ -9,6 +9,7 @@
   flex-direction: row;
   margin-left: 42.72px;
   margin-top: 24px;
+  margin-bottom: 68px;
 }
 .header__logo {
   margin-top: 0px;
@@ -25,13 +26,13 @@
 }
 .menu__link_models {
   width: 62px;
-  height: 19px;
+height: 19px;
 
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 18px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
 }
 .menu__link_modelX {
   width: 63px;
@@ -102,14 +103,13 @@
 /*Первая секция сайта */
 .title__models-black {
   text-align: center;
-  margin-top: 58px;
   font-family: 'Montserrat';
   font-style: normal;
+  font-size: 89px;
   font-weight: 500;
-  font-size: 88.5px;
-  line-height: 110px;
-  margin-bottom: 0px;
-  height: 100px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  line-height: 89px
 }
 .title__second-title {
   text-align: center;
@@ -117,60 +117,52 @@
   font-weight: 500;
   font-size: 14.5px;
   line-height: 18px;
-  margin-top: 1px;
+  margin-top: 0px;
 }
 .drive__background_tesla {
-  width: 1514px;
-  height: 467px;
-  margin-left: -48px;
-  margin-top: -120px;
-  opacity: 0.1;
-  background-position: center;
+width: 93%;
+line-height: 93%;
+display: flex;
+align-items: flex-start;
 }
 .drive__red_car {
-  width: 968px;
-  height: 450px;
-  margin-left: 230px;
-  margin-top: -340px;;
+
+}
+.drive__discription {
+
 }
 .drive__speed {
-  width: 3.45%;
-  margin-left: 347px;
+
 }
-.drive__cruising {
-  display: inline;
-  width: 2.9%;
-  margin-left: 172px;
-  margin-top: 20px;
+.drive__speed-text {
+
+}
+.drive__speed-sec {
+
+}
+.drive__speed-numbers {
+
+}
+
+}
+.drive__crusing-text {
+
+}
+.drive__crusing-km {
+
+}
+.drive__crusing-reserve {
+
 }
 .drive__test {
-  width: 1.5%;
-  margin-left: 205px;
+
+}
+.drive__test-text {
+
 }
 .drive__button_color_red {
-  width: 147px;
-  height: 24px;
-  left: 966px;
-  top: 776px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 16px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #E51937;
-  width: 160px;
-  height: 40px;
-  margin-left: 40px;
-  top: 765px;
-  border: 2px solid #E51937;
-  box-sizing: border-box;
-  background: white;
+
 }
 .drive__vector {
-  width: 28px;
-  height: 14px;
-  margin-left: 706px;
-  margin-top: 39px;
+
 }
