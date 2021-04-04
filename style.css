@@ -1,0 +1,165 @@
+*,*: before, *: after{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.header__body {
+  display: flex;
+  flex-direction: row;
+  margin-left: 42.72px;
+  margin-top: 24px;
+  margin-bottom: 68px;
+}
+.header__logo {
+  margin-top: 0px;
+  margin-left: 32px;
+  width: 166px;
+  height: 51px;
+}
+.header__menu {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-left: 258.14px;
+}
+.menu__link_models {
+  width: 62px;
+height: 19px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+}
+.menu__link_modelX {
+  width: 63px;
+  height: 19px;
+  top: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  margin-left: 58px;
+}
+.menu__link_model3 {
+  width: 61px;
+  height: 19px;
+  top: 40px;
+  margin-left: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+.menu__link_roadster {
+  width: 70px;
+  height: 19px;
+  top: 40px;
+  margin-left: 37px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+.menu__link_energy {
+  width: 55px;
+  height: 19px;
+  top: 40px;
+  margin-left: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+.menu__link_shop {
+  width: 69px;
+  height: 19px;
+  top: 40px;
+  margin-left: 217px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+.menu__link_enter {
+  width: 50px;
+  height: 19px;
+  top: 40px;
+  margin-left: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+/*Первая секция сайта */
+.title__models-black {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 89px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  line-height: 89px
+}
+.title__second-title {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 14.5px;
+  line-height: 18px;
+  margin-top: 0px;
+}
+.drive__background_tesla {
+  background: url('Tesla-Wordmark-Red.svg');
+}
+.drive__red_car {
+  
+}
+.drive__discription {
+
+}
+.drive__speed {
+
+}
+.drive__speed-text {
+
+}
+.drive__speed-sec {
+
+}
+.drive__speed-numbers {
+
+}
+
+}
+.drive__crusing-text {
+
+}
+.drive__crusing-km {
+
+}
+.drive__crusing-reserve {
+
+}
+.drive__test {
+
+}
+.drive__test-text {
+
+}
+.drive__button_color_red {
+
+}
+.drive__vector {
+
+}
